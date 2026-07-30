@@ -1,0 +1,80 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1785386831,
+        "narHash": "sha256-sPS3CaXH8RAT3FZRuy4VcV47iuYIWMMfa0GbyJKC3o4=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "21ea275a7c46aef9d4d6ddc962e6d562e9d94183",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-26.05",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1784796856,
+        "narHash": "sha256-vwxWgF+Gj276WznzGb1LxGsK/39HaQwgQXiU3EkC844=",
+        "rev": "e2587caef70cea85dd97d7daab492899902dbf5d",
+        "type": "tarball",
+        "url": "https://releases.nixos.org/nixos/unstable/nixos-26.11pre1040357.e2587caef70c/nixexprs.tar.xz"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://channels.nixos.org/nixos-unstable/nixexprs.tar.xz"
+      }
+    },
+    "noctalia": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1785421680,
+        "narHash": "sha256-FDGBeLEK4WpiNvuTw+T9SFQBhO6gnfFE9G7RUKE+964=",
+        "owner": "noctalia-dev",
+        "repo": "noctalia",
+        "rev": "ae6113f0282aad3291ff43ab7e4783f03837a8eb",
+        "type": "github"
+      },
+      "original": {
+        "owner": "noctalia-dev",
+        "repo": "noctalia",
+        "type": "github"
+      }
+    },
+    "noctalia-greeter": {
+      "inputs": {
+        "nixpkgs": "nixpkgs_2"
+      },
+      "locked": {
+        "lastModified": 1785404119,
+        "narHash": "sha256-3t/+o8Cbve8z43IekUNBj7Ecn/T+v7+p4Ivgs3IEQtk=",
+        "owner": "noctalia-dev",
+        "repo": "noctalia-greeter",
+        "rev": "257ce92ab410a1a9347038e4286a3fc5989bec97",
+        "type": "github"
+      },
+      "original": {
+        "owner": "noctalia-dev",
+        "repo": "noctalia-greeter",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "noctalia": "noctalia",
+        "noctalia-greeter": "noctalia-greeter"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
