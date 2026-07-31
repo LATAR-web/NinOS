@@ -30,6 +30,10 @@
     papirus-folders
     cliamp
     pywalfox-native
+
+
+
+    
 # modo espejo 
   wl-mirror
   jq

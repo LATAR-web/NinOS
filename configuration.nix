@@ -18,6 +18,7 @@
     ./modules/hardware/cuda.nix
 
     # ---- Escritorio ----
+    ./modules/desktop/portals.nix
     ./modules/desktop/gnome.nix
     ./modules/desktop/gnome-cleanup.nix
     ./modules/desktop/greetd-pam-fix.nix
