@@ -1,0 +1,3 @@
+
+[hooks]
+theme_mode_changed = "/home/ltar/.config/noctalia/hooks/sync-gnome-colorscheme.sh"
