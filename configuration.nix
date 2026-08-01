@@ -4,6 +4,7 @@
     ./hosts/nixos/hardware-configuration.nix
 
     # ---- Sistema base ----
+    ./modules/profiles.nix
     ./modules/system/boot.nix
     ./modules/system/locale.nix
     ./modules/system/nix-ld.nix
