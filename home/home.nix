@@ -6,8 +6,10 @@
 
   programs.git = {
     enable = true;
-    userName = "ltar";
-    userEmail = "rafaelbautista0611@gmail.com";
+    settings.user = {
+      name = "ltar";
+      email = "rafaelbautista0611@gmail.com";
+    };
   };
 
   programs.direnv = {
@@ -15,5 +17,20 @@
     nix-direnv.enable = true;
   };
 
-  # A partir de acá vamos a ir migrando cosas puntuales, de a una.
+  home.packages = with pkgs; [
+    vscode
+    obsidian
+    alacritty
+    localsend
+    onlyoffice-desktopeditors
+    proton-vpn
+    htop
+    yazi
+    playerctl
+    fastfetch
+    vesktop
+    papirus-folders
+    cliamp
+    pywalfox-native
+  ];
 }
