@@ -8,6 +8,7 @@
     ./modules/system/locale.nix
     ./modules/system/nix-ld.nix
     ./modules/system/virtualisation.nix
+    ./modules/system/direnv.nix
     ./modules/system/maintenance.nix
     ./modules/system/overlays.nix
     ./modules/system/flatpak-repo.nix
@@ -19,6 +20,7 @@
 
     # ---- Escritorio ----
     ./modules/desktop/portals.nix
+    ./modules/desktop/audio-production.nix
     ./modules/desktop/gnome.nix
     ./modules/desktop/gnome-cleanup.nix
     ./modules/desktop/greetd-pam-fix.nix

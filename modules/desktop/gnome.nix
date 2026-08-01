@@ -21,13 +21,6 @@ in
   services.desktopManager.gnome.enable = true;
   services.printing.enable = true;
   services.pulseaudio.enable = false;
-  security.rtkit.enable = true;
-  services.pipewire = {
-    enable = true;
-    alsa.enable = true;
-    alsa.support32Bit = true;
-    pulse.enable = true;
-  };
   programs.firefox.enable = true;
 
   # noctalia-greeter no registra XDG_SESSION_TYPE=wayland antes de lanzar
