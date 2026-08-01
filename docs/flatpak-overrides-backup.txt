@@ -1,7 +1,0 @@
-[Context]
-filesystems=xdg-config/qt6ct:ro;xdg-data/themes:ro;
-
-[Environment]
-GTK_THEME=adw-gtk3-dark
-QT_QPA_PLATFORMTHEME=kde
-QT_STYLE_OVERRIDE=kvantum
