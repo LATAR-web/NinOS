@@ -10,5 +10,10 @@
     userEmail = "rafaelbautista0611@gmail.com";
   };
 
+  programs.direnv = {
+    enable = true;
+    nix-direnv.enable = true;
+  };
+
   # A partir de acá vamos a ir migrando cosas puntuales, de a una.
 }
